@@ -270,3 +270,56 @@ class Bicicleta {
         print("A bicicleta de marca \(marca) está acelerando")
     }
 }
+
+// MARK: Poliforfismo
+
+// Criar uma classe pai na qual tenha 3 caracteristicas e 2 ações.
+// Criar 2 classes filhas distintas, porem ambas vão herdar da classe pai(super). Cada classe filha terá 3 caracteristicas especificas.
+// A classe pai terá construtor para setar seus valores.
+// Uma das classes filhas não deve conter construtor.
+// Uma das classes filhas deve conter contrutor indicando os valores de todas as suas propriedades.
+
+
+class Imovel {
+    var quantidadePortas: Int
+    var quantidadeJanelas: Int
+    var cor: String
+    
+    init(quantidadePortas: Int, quantidadeJanelas: Int, cor: String) {
+        self.quantidadePortas = quantidadePortas
+        self.quantidadeJanelas = quantidadeJanelas
+        self.cor = cor
+    }
+    
+    func abrirPorta() {
+        print("A porta está aberta")
+    }
+    
+    func abrirJanela() {
+        print("A janela está aberta")
+    }
+}
+
+class Casa: Imovel {
+    var quantidadeParedes: Int = 10
+    var temQuintal: Bool = true
+    var temPortao: Bool = false
+}
+
+class Hospital: Imovel {
+    var quantidadeUTI: Int
+    var tamanho: Double
+    var quantidadeSalaCirugia: Int
+    
+    init(quantidadeUTI: Int, tamanho: Double, quantidadeSalaCirugia: Int, quantidadePortas: Int, quantidadeJanelas: Int, cor: String) {
+        self.quantidadeUTI = quantidadeUTI
+        self.tamanho = tamanho
+        self.quantidadeSalaCirugia = quantidadeSalaCirugia
+        super.init(quantidadePortas: quantidadePortas, quantidadeJanelas: quantidadeJanelas, cor: cor)
+    }
+    
+    
+}
+  
+
+
