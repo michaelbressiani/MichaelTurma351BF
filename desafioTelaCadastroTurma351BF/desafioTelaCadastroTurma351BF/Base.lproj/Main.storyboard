@@ -31,43 +31,42 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SpD-qX-EhT">
+                                <rect key="frame" x="25" y="299" width="343" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="quQ-yV-xcj">
-                                <rect key="frame" x="159" y="349" width="75" height="35"/>
+                                <rect key="frame" x="159" y="363" width="75" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                 <connections>
                                     <action selector="tapedRegisterButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fvg-gG-fOh"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ia4-lO-OgN">
-                                <rect key="frame" x="25" y="454" width="343" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ia4-lO-OgN" secondAttribute="trailing" constant="25" id="1hW-qD-6Ty"/>
                             <constraint firstItem="dAF-WC-zOM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="45v-rs-mYW"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dAF-WC-zOM" secondAttribute="trailing" constant="25" id="5aN-pi-CSQ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dJg-2d-MmL" secondAttribute="trailing" constant="25" id="6Sb-2V-LzA"/>
-                            <constraint firstItem="quQ-yV-xcj" firstAttribute="top" secondItem="dAF-WC-zOM" secondAttribute="bottom" constant="80" id="NLM-Hy-OHP"/>
                             <constraint firstItem="tOX-K5-wTW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="48" id="O6w-o9-c1n"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="SpD-qX-EhT" secondAttribute="trailing" constant="25" id="X12-hy-UKe"/>
                             <constraint firstItem="tOX-K5-wTW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="ZIF-HF-lKK"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="tOX-K5-wTW" secondAttribute="trailing" constant="25" id="aar-0l-xWl"/>
                             <constraint firstItem="dAF-WC-zOM" firstAttribute="top" secondItem="dJg-2d-MmL" secondAttribute="bottom" constant="30" id="dcz-kK-QoL"/>
-                            <constraint firstItem="Ia4-lO-OgN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="eLi-vl-tHW"/>
-                            <constraint firstItem="Ia4-lO-OgN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="f8G-vW-0zn"/>
                             <constraint firstItem="dJg-2d-MmL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="hqd-sy-Mbb"/>
-                            <constraint firstItem="Ia4-lO-OgN" firstAttribute="top" secondItem="quQ-yV-xcj" secondAttribute="bottom" constant="70" id="ihU-xP-Epj"/>
                             <constraint firstItem="quQ-yV-xcj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="n5v-jU-g9B"/>
+                            <constraint firstItem="SpD-qX-EhT" firstAttribute="top" secondItem="dAF-WC-zOM" secondAttribute="bottom" constant="30" id="olH-hL-LyL"/>
+                            <constraint firstItem="quQ-yV-xcj" firstAttribute="top" secondItem="SpD-qX-EhT" secondAttribute="bottom" constant="30" id="pls-Fd-Msx"/>
+                            <constraint firstItem="SpD-qX-EhT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="rcF-Ak-4wE"/>
                             <constraint firstItem="dJg-2d-MmL" firstAttribute="top" secondItem="tOX-K5-wTW" secondAttribute="bottom" constant="30" id="tM1-RS-Xv7"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="adressTextField" destination="dJg-2d-MmL" id="KUV-04-ROw"/>
+                        <outlet property="confirmedPasswordTextField" destination="SpD-qX-EhT" id="YKd-MD-ile"/>
                         <outlet property="nameTextField" destination="tOX-K5-wTW" id="HXV-3b-iUn"/>
                         <outlet property="passordTextField" destination="dAF-WC-zOM" id="6sE-qN-vYH"/>
                         <outlet property="registerChangeButton" destination="quQ-yV-xcj" id="Wqz-Ui-wDW"/>

@@ -16,7 +16,9 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var registerChangeButton: UIButton!
     
     @IBOutlet weak var passordTextField: UITextField!
-
+    
+    @IBOutlet weak var confirmedPasswordTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         configElements()
@@ -30,12 +32,14 @@ class ViewController: UIViewController, UITextFieldDelegate {
         nameTextField.placeholder = "Digite seu nome"
         adressTextField.placeholder = "Digite seu endereço"
         passordTextField.placeholder = "Digite sua senha"
+        confirmedPasswordTextField.placeholder = "Confirme sua senha"
         registerChangeButton.setTitle("Cadastrar", for: .normal)
         registerChangeButton.backgroundColor = UIColor.purple
         
         nameTextField.delegate = self
         adressTextField.delegate = self
         passordTextField.delegate = self
+        confirmedPasswordTextField.delegate = self
     
         registerChangeButton.isEnabled = false
     }
@@ -56,7 +60,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
             textField.layer.borderColor = UIColor.red.cgColor
         }
         
-        if nameTextField.hasText && adressTextField.hasText && passordTextField.hasText {
+        if nameTextField.hasText && adressTextField.hasText && passordTextField.hasText && confirmedPasswordTextField.hasText && passordTextField.text == confirmedPasswordTextField.text {
             registerChangeButton.isEnabled = true
             print("Cadastro realizado com sucesso")
         } else {
