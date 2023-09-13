@@ -274,17 +274,65 @@ class Empresa {
         self.endereco = endereco
     }
     
-    func nomeEmpresa() -> String{
+    public func getNomeEmpresa() -> String {
         return nome
     }
     
-    func idadeEmpresa() -> Int {
+    public func getIdadeEmpresa() -> Int {
         return idade
     }
     
-    func enderecoEmpresa() -> String{
+    public func getEnderecoEmpresa() -> String {
         return endereco
+    }
+    
+    public func setNomeEmpresa(nomeEmpresa: String) {
+        nome = nomeEmpresa
+    }
+    
+    public func setIdadeEmpresa(idadeEmpresa: Int){
+        idade = idadeEmpresa
+    }
+    
+    public func setEnderecoEmpresa(enderecoEmpresa: String) {
+        endereco = enderecoEmpresa
     }
 }
 
-//class Cliente: Empresa
+
+class Cliente {
+    private var nome: String
+    private var idade: Int
+    private var endereco: String
+    
+    init(nome: String, idade: Int, endereco: String) {
+        self.nome = nome
+        self.idade = idade
+        self.endereco = endereco
+    }
+    
+    public func getNomeCliente() -> String {
+        return nome
+    }
+    
+    public func getIdadeCliente() -> Int {
+        return idade
+    }
+    
+    public func getEnderecoCliente() -> String {
+        return endereco
+    }
+    
+    public func setNomeCliente(nomeCliente: String) {
+        nome = nomeCliente
+    }
+    
+    public func setIdadeCliente(idadeCliente: Int){
+        idade = idadeCliente
+    }
+    
+    public func setEnderecoCliente(enderecoCliente: String) {
+        endereco = enderecoCliente
+    }
+}
+

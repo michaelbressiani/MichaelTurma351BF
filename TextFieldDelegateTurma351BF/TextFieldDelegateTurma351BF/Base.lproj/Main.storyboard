@@ -16,45 +16,48 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tAR-dM-tuC">
-                                <rect key="frame" x="175.66666666666666" y="415.66666666666669" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Cj-xW-anf">
-                                <rect key="frame" x="175" y="472" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rN7-7L-cZ9">
-                                <rect key="frame" x="151" y="522" width="91" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sw7-88-lcK">
+                                <rect key="frame" x="25" y="120" width="343" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2LR-Ci-qbh">
+                                <rect key="frame" x="25" y="172" width="343" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jIl-se-13B">
+                                <rect key="frame" x="159" y="251" width="75" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                 <connections>
-                                    <action selector="tappedChangeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ujn-Qu-3GA"/>
+                                    <action selector="tapedLoginButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="atF-SL-Exo"/>
                                 </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="tAR-dM-tuC" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="8xc-dX-Rn5"/>
-                            <constraint firstItem="tAR-dM-tuC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TTN-fS-ggH"/>
+                            <constraint firstItem="jIl-se-13B" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="159" id="DF7-dY-U32"/>
+                            <constraint firstItem="sw7-88-lcK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="Jcn-cl-nBp"/>
+                            <constraint firstItem="jIl-se-13B" firstAttribute="top" secondItem="2LR-Ci-qbh" secondAttribute="bottom" constant="45" id="Zql-cO-apU"/>
+                            <constraint firstItem="2LR-Ci-qbh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="25" id="hXZ-2T-LmO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jIl-se-13B" secondAttribute="trailing" constant="159" id="iD2-k2-Lo6"/>
+                            <constraint firstItem="sw7-88-lcK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="61" id="j5v-cE-k5O"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sw7-88-lcK" secondAttribute="trailing" constant="25" id="lWT-ZV-u3d"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2LR-Ci-qbh" secondAttribute="trailing" constant="25" id="tJ7-oW-AkC"/>
+                            <constraint firstItem="2LR-Ci-qbh" firstAttribute="top" secondItem="sw7-88-lcK" secondAttribute="bottom" constant="18" id="vmj-h9-pDb"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="changeButton" destination="rN7-7L-cZ9" id="XyL-Qv-aY4"/>
-                        <outlet property="lastNameLabel" destination="7Cj-xW-anf" id="wZ3-YX-xYp"/>
-                        <outlet property="nameLabel" destination="tAR-dM-tuC" id="sNE-20-A1u"/>
+                        <outlet property="emailTextField" destination="sw7-88-lcK" id="8H3-kS-TnS"/>
+                        <outlet property="loginChangeButton" destination="jIl-se-13B" id="9Jx-wY-WZC"/>
+                        <outlet property="loginTextField" destination="2LR-Ci-qbh" id="nrk-7f-ezD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="46.564885496183201" y="-2.1126760563380285"/>
+            <point key="canvasLocation" x="-331" y="8"/>
         </scene>
     </scenes>
     <resources>
