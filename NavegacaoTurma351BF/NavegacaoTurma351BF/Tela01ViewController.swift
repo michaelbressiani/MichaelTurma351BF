@@ -16,6 +16,7 @@ class Tela01ViewController: UIViewController {
         super.viewDidLoad()
         irTela02ChangeButton.setTitle("Ir para Tela02", for: .normal)
         irTela02ChangeButton.backgroundColor = UIColor.white
+        title = "Teste Title"
     }
     
     
@@ -23,8 +24,15 @@ class Tela01ViewController: UIViewController {
         // Esse código identifica a tela e instacia ela (dá vida). Depois do "as?" estamos dizendo qual o tipo da variável tela02.
         // Note que como tela02 é um opcional, então precisamos realizar uma tratativa.
         let tela02 = UIStoryboard(name: "Tela02ViewController", bundle: nil).instantiateViewController(withIdentifier: "Tela02ViewController") as? Tela02ViewController
-        tela02?.modalPresentationStyle = .fullScreen
-        present(tela02 ?? UIViewController(), animated: true)
+        
+        // Modal
+//        tela02?.modalPresentationStyle = .fullScreen
+//        present(tela02 ?? UIViewController(), animated: true)
+        
+        // Navegation
+        navigationController?.pushViewController(tela02 ?? UIViewController(), animated: true)
+        
+        
         
         
         

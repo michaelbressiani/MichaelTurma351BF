@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF50ABEA2AB3ED2F0055A42E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF50ABE92AB3ED2F0055A42E /* AppDelegate.swift */; };
+		DF50ABEC2AB3ED2F0055A42E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF50ABEB2AB3ED2F0055A42E /* SceneDelegate.swift */; };
+		DF50ABEE2AB3ED2F0055A42E /* Tela01ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF50ABED2AB3ED2F0055A42E /* Tela01ViewController.swift */; };
+		DF50ABF12AB3ED2F0055A42E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF50ABEF2AB3ED2F0055A42E /* Main.storyboard */; };
+		DF50ABF32AB3ED300055A42E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF50ABF22AB3ED300055A42E /* Assets.xcassets */; };
+		DF50ABF62AB3ED300055A42E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF50ABF42AB3ED300055A42E /* LaunchScreen.storyboard */; };
+		DF50AC002AB3ED7B0055A42E /* Tela02ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF50ABFF2AB3ED7B0055A42E /* Tela02ViewController.swift */; };
+		DF50AC022AB3ED8C0055A42E /* Tela02ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF50AC012AB3ED8C0055A42E /* Tela02ViewController.storyboard */; };
+		DF50AC042AB3EDB30055A42E /* Tela03ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF50AC032AB3EDB30055A42E /* Tela03ViewController.swift */; };
+		DF50AC062AB3EDBD0055A42E /* Tela03ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF50AC052AB3EDBD0055A42E /* Tela03ViewController.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF50ABE62AB3ED2F0055A42E /* DesafioNavegacao2Turma351BF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesafioNavegacao2Turma351BF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF50ABE92AB3ED2F0055A42E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF50ABEB2AB3ED2F0055A42E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DF50ABED2AB3ED2F0055A42E /* Tela01ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tela01ViewController.swift; sourceTree = "<group>"; };
+		DF50ABF02AB3ED2F0055A42E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF50ABF22AB3ED300055A42E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF50ABF52AB3ED300055A42E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF50ABF72AB3ED300055A42E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF50ABFF2AB3ED7B0055A42E /* Tela02ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tela02ViewController.swift; sourceTree = "<group>"; };
+		DF50AC012AB3ED8C0055A42E /* Tela02ViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tela02ViewController.storyboard; sourceTree = "<group>"; };
+		DF50AC032AB3EDB30055A42E /* Tela03ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tela03ViewController.swift; sourceTree = "<group>"; };
+		DF50AC052AB3EDBD0055A42E /* Tela03ViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tela03ViewController.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF50ABE32AB3ED2F0055A42E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF50ABDD2AB3ED2F0055A42E = {
+			isa = PBXGroup;
+			children = (
+				DF50ABE82AB3ED2F0055A42E /* DesafioNavegacao2Turma351BF */,
+				DF50ABE72AB3ED2F0055A42E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF50ABE72AB3ED2F0055A42E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF50ABE62AB3ED2F0055A42E /* DesafioNavegacao2Turma351BF.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF50ABE82AB3ED2F0055A42E /* DesafioNavegacao2Turma351BF */ = {
+			isa = PBXGroup;
+			children = (
+				DF50ABFE2AB3ED660055A42E /* Tela03 */,
+				DF50ABFD2AB3ED5D0055A42E /* Tela02 */,
+				DF50ABE92AB3ED2F0055A42E /* AppDelegate.swift */,
+				DF50ABEB2AB3ED2F0055A42E /* SceneDelegate.swift */,
+				DF50ABED2AB3ED2F0055A42E /* Tela01ViewController.swift */,
+				DF50ABEF2AB3ED2F0055A42E /* Main.storyboard */,
+				DF50ABF22AB3ED300055A42E /* Assets.xcassets */,
+				DF50ABF42AB3ED300055A42E /* LaunchScreen.storyboard */,
+				DF50ABF72AB3ED300055A42E /* Info.plist */,
+			);
+			path = DesafioNavegacao2Turma351BF;
+			sourceTree = "<group>";
+		};
+		DF50ABFD2AB3ED5D0055A42E /* Tela02 */ = {
+			isa = PBXGroup;
+			children = (
+				DF50ABFF2AB3ED7B0055A42E /* Tela02ViewController.swift */,
+				DF50AC012AB3ED8C0055A42E /* Tela02ViewController.storyboard */,
+			);
+			path = Tela02;
+			sourceTree = "<group>";
+		};
+		DF50ABFE2AB3ED660055A42E /* Tela03 */ = {
+			isa = PBXGroup;
+			children = (
+				DF50AC032AB3EDB30055A42E /* Tela03ViewController.swift */,
+				DF50AC052AB3EDBD0055A42E /* Tela03ViewController.storyboard */,
+			);
+			path = Tela03;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF50ABE52AB3ED2F0055A42E /* DesafioNavegacao2Turma351BF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF50ABFA2AB3ED300055A42E /* Build configuration list for PBXNativeTarget "DesafioNavegacao2Turma351BF" */;
+			buildPhases = (
+				DF50ABE22AB3ED2F0055A42E /* Sources */,
+				DF50ABE32AB3ED2F0055A42E /* Frameworks */,
+				DF50ABE42AB3ED2F0055A42E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DesafioNavegacao2Turma351BF;
+			productName = DesafioNavegacao2Turma351BF;
+			productReference = DF50ABE62AB3ED2F0055A42E /* DesafioNavegacao2Turma351BF.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF50ABDE2AB3ED2F0055A42E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					DF50ABE52AB3ED2F0055A42E = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = DF50ABE12AB3ED2F0055A42E /* Build configuration list for PBXProject "DesafioNavegacao2Turma351BF" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF50ABDD2AB3ED2F0055A42E;
+			productRefGroup = DF50ABE72AB3ED2F0055A42E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF50ABE52AB3ED2F0055A42E /* DesafioNavegacao2Turma351BF */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF50ABE42AB3ED2F0055A42E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF50ABF62AB3ED300055A42E /* LaunchScreen.storyboard in Resources */,
+				DF50AC022AB3ED8C0055A42E /* Tela02ViewController.storyboard in Resources */,
+				DF50AC062AB3EDBD0055A42E /* Tela03ViewController.storyboard in Resources */,
+				DF50ABF32AB3ED300055A42E /* Assets.xcassets in Resources */,
+				DF50ABF12AB3ED2F0055A42E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF50ABE22AB3ED2F0055A42E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF50AC002AB3ED7B0055A42E /* Tela02ViewController.swift in Sources */,
+				DF50ABEE2AB3ED2F0055A42E /* Tela01ViewController.swift in Sources */,
+				DF50ABEA2AB3ED2F0055A42E /* AppDelegate.swift in Sources */,
+				DF50ABEC2AB3ED2F0055A42E /* SceneDelegate.swift in Sources */,
+				DF50AC042AB3EDB30055A42E /* Tela03ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DF50ABEF2AB3ED2F0055A42E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF50ABF02AB3ED2F0055A42E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF50ABF42AB3ED300055A42E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF50ABF52AB3ED300055A42E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF50ABF82AB3ED300055A42E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF50ABF92AB3ED300055A42E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF50ABFB2AB3ED300055A42E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DesafioNavegacao2Turma351BF/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelbressiani.DesafioNavegacao2Turma351BF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF50ABFC2AB3ED300055A42E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DesafioNavegacao2Turma351BF/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelbressiani.DesafioNavegacao2Turma351BF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF50ABE12AB3ED2F0055A42E /* Build configuration list for PBXProject "DesafioNavegacao2Turma351BF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF50ABF82AB3ED300055A42E /* Debug */,
+				DF50ABF92AB3ED300055A42E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF50ABFA2AB3ED300055A42E /* Build configuration list for PBXNativeTarget "DesafioNavegacao2Turma351BF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF50ABFB2AB3ED300055A42E /* Debug */,
+				DF50ABFC2AB3ED300055A42E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF50ABDE2AB3ED2F0055A42E /* Project object */;
+}
