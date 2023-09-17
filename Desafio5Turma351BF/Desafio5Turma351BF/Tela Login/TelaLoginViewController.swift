@@ -44,6 +44,7 @@ class TelaLoginViewController: UIViewController {
         emailTextField.placeholder = "Digite seu e-mail"
         passwordLabel.textColor = UIColor.white
         passwordLabel.text = "Senha"
+        passwordTextField.isSecureTextEntry = true
         passwordTextField.placeholder = "Digite sua senha"
         enterButton.tintColor = UIColor.white
         enterButton.setTitle("Entrar", for: .normal)
