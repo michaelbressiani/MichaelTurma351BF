@@ -12,6 +12,7 @@ class NameTableViewCell: UITableViewCell {
     @IBOutlet weak var nameLabel: UILabel!
     
     @IBOutlet weak var lastNameLabel: UILabel!
+    
     static let identifier: String = "NameTableViewCell"
 
         static func nib() -> UINib {

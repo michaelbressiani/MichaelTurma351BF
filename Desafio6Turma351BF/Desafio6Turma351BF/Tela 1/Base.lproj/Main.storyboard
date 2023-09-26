@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ScH-nS-dIt">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Desafio6Turma351BF" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="hFE-Hk-PUL">
+                                <rect key="frame" x="0.0" y="103" width="393" height="615"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MZB-KS-X8E">
+                                <rect key="frame" x="20" y="753" width="353" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <action selector="tappedEx2Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="f91-kn-qpd"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="hFE-Hk-PUL" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="03U-DN-UCb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="hFE-Hk-PUL" secondAttribute="bottom" constant="100" id="5yN-Pm-I1s"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MZB-KS-X8E" secondAttribute="trailing" constant="20" id="DzV-IE-hQG"/>
+                            <constraint firstItem="hFE-Hk-PUL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="KKh-ns-oIX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hFE-Hk-PUL" secondAttribute="trailing" id="LiK-WD-Yzl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hFE-Hk-PUL" secondAttribute="trailing" id="Sbx-rl-WYr"/>
+                            <constraint firstItem="MZB-KS-X8E" firstAttribute="top" secondItem="hFE-Hk-PUL" secondAttribute="bottom" constant="35" id="ZOP-Ap-jm5"/>
+                            <constraint firstItem="hFE-Hk-PUL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="bF7-8H-jEn"/>
+                            <constraint firstItem="MZB-KS-X8E" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="m73-sz-Lzy"/>
+                            <constraint firstItem="hFE-Hk-PUL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="nBP-iu-JTp"/>
+                            <constraint firstItem="hFE-Hk-PUL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="rua-BW-rbt"/>
+                            <constraint firstItem="hFE-Hk-PUL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="yST-4s-YxL"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="ZXi-hN-i0V"/>
+                    <connections>
+                        <outlet property="frutasTableView" destination="hFE-Hk-PUL" id="R02-Yz-CRM"/>
+                        <outlet property="irEx2ChangeButton" destination="MZB-KS-X8E" id="SLX-lE-1j3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="973.28244274809151" y="-2.1126760563380285"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="NcZ-ut-and">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ScH-nS-dIt" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="UjF-T4-V5L">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="FDb-la-00S"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BuT-zk-fHv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="46.564885496183201" y="-2.1126760563380285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
