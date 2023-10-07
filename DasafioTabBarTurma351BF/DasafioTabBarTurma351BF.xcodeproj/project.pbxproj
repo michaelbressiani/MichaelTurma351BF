@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFCC46172ACCD7F90096A64F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCC46162ACCD7F90096A64F /* AppDelegate.swift */; };
+		DFCC46192ACCD7F90096A64F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCC46182ACCD7F90096A64F /* SceneDelegate.swift */; };
+		DFCC461E2ACCD7F90096A64F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFCC461C2ACCD7F90096A64F /* Main.storyboard */; };
+		DFCC46202ACCD7FA0096A64F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFCC461F2ACCD7FA0096A64F /* Assets.xcassets */; };
+		DFCC46232ACCD7FA0096A64F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFCC46212ACCD7FA0096A64F /* LaunchScreen.storyboard */; };
+		DFCC462C2ACCD8860096A64F /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCC462B2ACCD8860096A64F /* TabBarViewController.swift */; };
+		DFCC462F2ACCD8F10096A64F /* Tela01ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCC462E2ACCD8F10096A64F /* Tela01ViewController.swift */; };
+		DFCC46312ACCD8FC0096A64F /* Tela01ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFCC46302ACCD8FC0096A64F /* Tela01ViewController.storyboard */; };
+		DFCC46342ACCD9390096A64F /* Tela02ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCC46332ACCD9390096A64F /* Tela02ViewController.swift */; };
+		DFCC46362ACCD9500096A64F /* Tela02ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFCC46352ACCD9500096A64F /* Tela02ViewController.storyboard */; };
+		DFCC46392ACCD9790096A64F /* Tela03ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCC46382ACCD9790096A64F /* Tela03ViewController.swift */; };
+		DFCC463B2ACCD9880096A64F /* Tela03ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFCC463A2ACCD9880096A64F /* Tela03ViewController.storyboard */; };
+		DFCC463E2ACCDA8E0096A64F /* Tela04ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCC463D2ACCDA8E0096A64F /* Tela04ViewController.swift */; };
+		DFCC46402ACCDA9C0096A64F /* Tela04ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFCC463F2ACCDA9C0096A64F /* Tela04ViewController.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DFCC46132ACCD7F90096A64F /* DasafioTabBarTurma351BF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DasafioTabBarTurma351BF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFCC46162ACCD7F90096A64F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DFCC46182ACCD7F90096A64F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DFCC461D2ACCD7F90096A64F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFCC461F2ACCD7FA0096A64F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFCC46222ACCD7FA0096A64F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFCC46242ACCD7FA0096A64F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFCC462B2ACCD8860096A64F /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		DFCC462E2ACCD8F10096A64F /* Tela01ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tela01ViewController.swift; sourceTree = "<group>"; };
+		DFCC46302ACCD8FC0096A64F /* Tela01ViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tela01ViewController.storyboard; sourceTree = "<group>"; };
+		DFCC46332ACCD9390096A64F /* Tela02ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tela02ViewController.swift; sourceTree = "<group>"; };
+		DFCC46352ACCD9500096A64F /* Tela02ViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tela02ViewController.storyboard; sourceTree = "<group>"; };
+		DFCC46382ACCD9790096A64F /* Tela03ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tela03ViewController.swift; sourceTree = "<group>"; };
+		DFCC463A2ACCD9880096A64F /* Tela03ViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tela03ViewController.storyboard; sourceTree = "<group>"; };
+		DFCC463D2ACCDA8E0096A64F /* Tela04ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tela04ViewController.swift; sourceTree = "<group>"; };
+		DFCC463F2ACCDA9C0096A64F /* Tela04ViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tela04ViewController.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFCC46102ACCD7F90096A64F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFCC460A2ACCD7F90096A64F = {
+			isa = PBXGroup;
+			children = (
+				DFCC46152ACCD7F90096A64F /* DasafioTabBarTurma351BF */,
+				DFCC46142ACCD7F90096A64F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFCC46142ACCD7F90096A64F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFCC46132ACCD7F90096A64F /* DasafioTabBarTurma351BF.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFCC46152ACCD7F90096A64F /* DasafioTabBarTurma351BF */ = {
+			isa = PBXGroup;
+			children = (
+				DFCC463C2ACCDA790096A64F /* Tela04 */,
+				DFCC46372ACCD9640096A64F /* Tela03 */,
+				DFCC46322ACCD91D0096A64F /* Tela02 */,
+				DFCC462D2ACCD8D00096A64F /* Tela01 */,
+				DFCC462A2ACCD8720096A64F /* TabBar */,
+				DFCC46162ACCD7F90096A64F /* AppDelegate.swift */,
+				DFCC46182ACCD7F90096A64F /* SceneDelegate.swift */,
+				DFCC461C2ACCD7F90096A64F /* Main.storyboard */,
+				DFCC461F2ACCD7FA0096A64F /* Assets.xcassets */,
+				DFCC46212ACCD7FA0096A64F /* LaunchScreen.storyboard */,
+				DFCC46242ACCD7FA0096A64F /* Info.plist */,
+			);
+			path = DasafioTabBarTurma351BF;
+			sourceTree = "<group>";
+		};
+		DFCC462A2ACCD8720096A64F /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				DFCC462B2ACCD8860096A64F /* TabBarViewController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		DFCC462D2ACCD8D00096A64F /* Tela01 */ = {
+			isa = PBXGroup;
+			children = (
+				DFCC462E2ACCD8F10096A64F /* Tela01ViewController.swift */,
+				DFCC46302ACCD8FC0096A64F /* Tela01ViewController.storyboard */,
+			);
+			path = Tela01;
+			sourceTree = "<group>";
+		};
+		DFCC46322ACCD91D0096A64F /* Tela02 */ = {
+			isa = PBXGroup;
+			children = (
+				DFCC46332ACCD9390096A64F /* Tela02ViewController.swift */,
+				DFCC46352ACCD9500096A64F /* Tela02ViewController.storyboard */,
+			);
+			path = Tela02;
+			sourceTree = "<group>";
+		};
+		DFCC46372ACCD9640096A64F /* Tela03 */ = {
+			isa = PBXGroup;
+			children = (
+				DFCC46382ACCD9790096A64F /* Tela03ViewController.swift */,
+				DFCC463A2ACCD9880096A64F /* Tela03ViewController.storyboard */,
+			);
+			path = Tela03;
+			sourceTree = "<group>";
+		};
+		DFCC463C2ACCDA790096A64F /* Tela04 */ = {
+			isa = PBXGroup;
+			children = (
+				DFCC463D2ACCDA8E0096A64F /* Tela04ViewController.swift */,
+				DFCC463F2ACCDA9C0096A64F /* Tela04ViewController.storyboard */,
+			);
+			path = Tela04;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFCC46122ACCD7F90096A64F /* DasafioTabBarTurma351BF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFCC46272ACCD7FA0096A64F /* Build configuration list for PBXNativeTarget "DasafioTabBarTurma351BF" */;
+			buildPhases = (
+				DFCC460F2ACCD7F90096A64F /* Sources */,
+				DFCC46102ACCD7F90096A64F /* Frameworks */,
+				DFCC46112ACCD7F90096A64F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DasafioTabBarTurma351BF;
+			productName = DasafioTabBarTurma351BF;
+			productReference = DFCC46132ACCD7F90096A64F /* DasafioTabBarTurma351BF.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFCC460B2ACCD7F90096A64F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					DFCC46122ACCD7F90096A64F = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = DFCC460E2ACCD7F90096A64F /* Build configuration list for PBXProject "DasafioTabBarTurma351BF" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFCC460A2ACCD7F90096A64F;
+			productRefGroup = DFCC46142ACCD7F90096A64F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFCC46122ACCD7F90096A64F /* DasafioTabBarTurma351BF */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFCC46112ACCD7F90096A64F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFCC46362ACCD9500096A64F /* Tela02ViewController.storyboard in Resources */,
+				DFCC46312ACCD8FC0096A64F /* Tela01ViewController.storyboard in Resources */,
+				DFCC46232ACCD7FA0096A64F /* LaunchScreen.storyboard in Resources */,
+				DFCC46202ACCD7FA0096A64F /* Assets.xcassets in Resources */,
+				DFCC463B2ACCD9880096A64F /* Tela03ViewController.storyboard in Resources */,
+				DFCC461E2ACCD7F90096A64F /* Main.storyboard in Resources */,
+				DFCC46402ACCDA9C0096A64F /* Tela04ViewController.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFCC460F2ACCD7F90096A64F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFCC462C2ACCD8860096A64F /* TabBarViewController.swift in Sources */,
+				DFCC463E2ACCDA8E0096A64F /* Tela04ViewController.swift in Sources */,
+				DFCC46172ACCD7F90096A64F /* AppDelegate.swift in Sources */,
+				DFCC46192ACCD7F90096A64F /* SceneDelegate.swift in Sources */,
+				DFCC46392ACCD9790096A64F /* Tela03ViewController.swift in Sources */,
+				DFCC462F2ACCD8F10096A64F /* Tela01ViewController.swift in Sources */,
+				DFCC46342ACCD9390096A64F /* Tela02ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DFCC461C2ACCD7F90096A64F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFCC461D2ACCD7F90096A64F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFCC46212ACCD7FA0096A64F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFCC46222ACCD7FA0096A64F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFCC46252ACCD7FA0096A64F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DFCC46262ACCD7FA0096A64F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFCC46282ACCD7FA0096A64F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DasafioTabBarTurma351BF/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelbressiani.DasafioTabBarTurma351BF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFCC46292ACCD7FA0096A64F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DasafioTabBarTurma351BF/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelbressiani.DasafioTabBarTurma351BF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFCC460E2ACCD7F90096A64F /* Build configuration list for PBXProject "DasafioTabBarTurma351BF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFCC46252ACCD7FA0096A64F /* Debug */,
+				DFCC46262ACCD7FA0096A64F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFCC46272ACCD7FA0096A64F /* Build configuration list for PBXNativeTarget "DasafioTabBarTurma351BF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFCC46282ACCD7FA0096A64F /* Debug */,
+				DFCC46292ACCD7FA0096A64F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFCC460B2ACCD7F90096A64F /* Project object */;
+}

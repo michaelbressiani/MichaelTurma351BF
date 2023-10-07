@@ -27,7 +27,7 @@ class ViewController: UIViewController {
     }
     
     func configElements() {
-        irEx2ChangeButton.setTitle("Ir para exercício 2", for: .normal)
+        irEx2ChangeButton.setTitle("Ir Tela 2", for: .normal)
         frutasTableView.delegate = self
         frutasTableView.dataSource = self
         frutasTableView.register(TableViewCell.nib(), forCellReuseIdentifier: TableViewCell.identifier)

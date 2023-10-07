@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -20,17 +21,29 @@
                                 <rect key="frame" x="0.0" y="59" width="393" height="659"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wfs-1U-wPD">
+                                <rect key="frame" x="20" y="742" width="353" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <action selector="tappedIrTela03Button:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="DKr-v8-P7L"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Wfs-1U-wPD" secondAttribute="trailing" constant="20" id="1IX-UX-fEg"/>
                             <constraint firstItem="I0w-tL-C72" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="8er-NX-0ya"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="I0w-tL-C72" secondAttribute="trailing" id="DN1-WX-i4R"/>
+                            <constraint firstItem="Wfs-1U-wPD" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="Ehq-oj-jo3"/>
+                            <constraint firstItem="Wfs-1U-wPD" firstAttribute="top" secondItem="I0w-tL-C72" secondAttribute="bottom" constant="24" id="Wfk-lH-hzn"/>
                             <constraint firstItem="I0w-tL-C72" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="beM-4s-3XH"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="I0w-tL-C72" secondAttribute="bottom" constant="100" id="hay-KB-fI8"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="irTela03ChangeButton" destination="Wfs-1U-wPD" id="PQI-8o-8WE"/>
                         <outlet property="namesTableView" destination="I0w-tL-C72" id="bya-7r-uHk"/>
                     </connections>
                 </viewController>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tela04 View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="Tela04ViewController" id="Y6W-OH-hqX" customClass="Tela04ViewController" customModule="Desafio6Turma351BF" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C1g-j8-drA">
+                                <rect key="frame" x="159" y="408.66666666666669" width="75" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <action selector="tappedIrTela05Button:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="5jM-qu-Eyw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eBW-o0-m3V">
+                                <rect key="frame" x="159" y="508.66666666666674" width="75" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <action selector="tappedVoltarButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="iyz-qr-GZB"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cTg-3t-2af">
+                                <rect key="frame" x="20" y="226" width="353" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="cTg-3t-2af" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="167" id="Q9x-XU-du2"/>
+                            <constraint firstItem="eBW-o0-m3V" firstAttribute="top" secondItem="C1g-j8-drA" secondAttribute="bottom" constant="65.329999999999998" id="UWA-EC-nMr"/>
+                            <constraint firstItem="cTg-3t-2af" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="YfC-6a-kHD"/>
+                            <constraint firstItem="C1g-j8-drA" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="e9f-Le-QI9"/>
+                            <constraint firstItem="eBW-o0-m3V" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="159" id="iTn-Id-5gd"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="eBW-o0-m3V" secondAttribute="trailing" constant="159" id="jba-bk-Yyg"/>
+                            <constraint firstItem="C1g-j8-drA" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="tBD-zX-yUE"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="cTg-3t-2af" secondAttribute="trailing" constant="20" id="zlD-0d-GtD"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="irTela05ChangeButton" destination="C1g-j8-drA" id="3iG-NS-r09"/>
+                        <outlet property="transationDataLabel" destination="cTg-3t-2af" id="zE2-0R-SAS"/>
+                        <outlet property="voltarChangeButton" destination="eBW-o0-m3V" id="RHV-e8-1tz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138" y="4"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

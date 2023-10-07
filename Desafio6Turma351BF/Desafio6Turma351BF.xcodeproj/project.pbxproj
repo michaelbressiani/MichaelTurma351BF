@@ -21,6 +21,14 @@
 		DF7D79702AC2F63900FD5923 /* Ex2ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7D796E2AC2F63900FD5923 /* Ex2ViewCell.swift */; };
 		DF7D79712AC2F63900FD5923 /* Ex2ViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF7D796F2AC2F63900FD5923 /* Ex2ViewCell.xib */; };
 		DF7D79732AC2F87300FD5923 /* Pessoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7D79722AC2F87300FD5923 /* Pessoa.swift */; };
+		DFA16E522AD18D4000343317 /* Tela03ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA16E512AD18D4000343317 /* Tela03ViewController.swift */; };
+		DFA16E542AD18D7700343317 /* Tela03ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFA16E532AD18D7700343317 /* Tela03ViewController.storyboard */; };
+		DFA16E562AD18D9700343317 /* Tela04ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA16E552AD18D9700343317 /* Tela04ViewController.swift */; };
+		DFA16E582AD18DA500343317 /* Tela04ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFA16E572AD18DA500343317 /* Tela04ViewController.storyboard */; };
+		DFA16E5A2AD18DBF00343317 /* Tela05ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA16E592AD18DBF00343317 /* Tela05ViewController.swift */; };
+		DFA16E5C2AD18DCA00343317 /* Tela05ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFA16E5B2AD18DCA00343317 /* Tela05ViewController.storyboard */; };
+		DFA16E5E2AD18E1300343317 /* Tela06ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA16E5D2AD18E1300343317 /* Tela06ViewController.swift */; };
+		DFA16E602AD18E1F00343317 /* Tela06ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFA16E5F2AD18E1F00343317 /* Tela06ViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +48,14 @@
 		DF7D796E2AC2F63900FD5923 /* Ex2ViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ex2ViewCell.swift; sourceTree = "<group>"; };
 		DF7D796F2AC2F63900FD5923 /* Ex2ViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Ex2ViewCell.xib; sourceTree = "<group>"; };
 		DF7D79722AC2F87300FD5923 /* Pessoa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pessoa.swift; sourceTree = "<group>"; };
+		DFA16E512AD18D4000343317 /* Tela03ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tela03ViewController.swift; sourceTree = "<group>"; };
+		DFA16E532AD18D7700343317 /* Tela03ViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tela03ViewController.storyboard; sourceTree = "<group>"; };
+		DFA16E552AD18D9700343317 /* Tela04ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tela04ViewController.swift; sourceTree = "<group>"; };
+		DFA16E572AD18DA500343317 /* Tela04ViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tela04ViewController.storyboard; sourceTree = "<group>"; };
+		DFA16E592AD18DBF00343317 /* Tela05ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tela05ViewController.swift; sourceTree = "<group>"; };
+		DFA16E5B2AD18DCA00343317 /* Tela05ViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tela05ViewController.storyboard; sourceTree = "<group>"; };
+		DFA16E5D2AD18E1300343317 /* Tela06ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tela06ViewController.swift; sourceTree = "<group>"; };
+		DFA16E5F2AD18E1F00343317 /* Tela06ViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tela06ViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,8 +88,12 @@
 		DF7D794B2AC2E90B00FD5923 /* Desafio6Turma351BF */ = {
 			isa = PBXGroup;
 			children = (
-				DF7D79692AC2F41700FD5923 /* Tela 2 */,
-				DF7D79682AC2F37400FD5923 /* Tela 1 */,
+				DFA16E502AD18D2300343317 /* Tela06 */,
+				DFA16E4F2AD18D1C00343317 /* Tela05 */,
+				DFA16E4E2AD18D1500343317 /* Tela04 */,
+				DFA16E4D2AD18CEC00343317 /* Tela03 */,
+				DF7D79692AC2F41700FD5923 /* Tela02 */,
+				DF7D79682AC2F37400FD5923 /* Tela01 */,
 				DF7D79652AC2EB8700FD5923 /* Models */,
 				DF7D79602AC2EAE400FD5923 /* Cells */,
 				DF7D794C2AC2E90B00FD5923 /* AppDelegate.swift */,
@@ -105,22 +125,58 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		DF7D79682AC2F37400FD5923 /* Tela 1 */ = {
+		DF7D79682AC2F37400FD5923 /* Tela01 */ = {
 			isa = PBXGroup;
 			children = (
 				DF7D79502AC2E90B00FD5923 /* ViewController.swift */,
 				DF7D79522AC2E90B00FD5923 /* Main.storyboard */,
 			);
-			path = "Tela 1";
+			path = Tela01;
 			sourceTree = "<group>";
 		};
-		DF7D79692AC2F41700FD5923 /* Tela 2 */ = {
+		DF7D79692AC2F41700FD5923 /* Tela02 */ = {
 			isa = PBXGroup;
 			children = (
 				DF7D796A2AC2F44500FD5923 /* Tela2ViewController.swift */,
 				DF7D796C2AC2F45800FD5923 /* Tela2ViewController.storyboard */,
 			);
-			path = "Tela 2";
+			path = Tela02;
+			sourceTree = "<group>";
+		};
+		DFA16E4D2AD18CEC00343317 /* Tela03 */ = {
+			isa = PBXGroup;
+			children = (
+				DFA16E512AD18D4000343317 /* Tela03ViewController.swift */,
+				DFA16E532AD18D7700343317 /* Tela03ViewController.storyboard */,
+			);
+			path = Tela03;
+			sourceTree = "<group>";
+		};
+		DFA16E4E2AD18D1500343317 /* Tela04 */ = {
+			isa = PBXGroup;
+			children = (
+				DFA16E552AD18D9700343317 /* Tela04ViewController.swift */,
+				DFA16E572AD18DA500343317 /* Tela04ViewController.storyboard */,
+			);
+			path = Tela04;
+			sourceTree = "<group>";
+		};
+		DFA16E4F2AD18D1C00343317 /* Tela05 */ = {
+			isa = PBXGroup;
+			children = (
+				DFA16E592AD18DBF00343317 /* Tela05ViewController.swift */,
+				DFA16E5B2AD18DCA00343317 /* Tela05ViewController.storyboard */,
+			);
+			path = Tela05;
+			sourceTree = "<group>";
+		};
+		DFA16E502AD18D2300343317 /* Tela06 */ = {
+			isa = PBXGroup;
+			children = (
+				DFA16E5D2AD18E1300343317 /* Tela06ViewController.swift */,
+				DFA16E5F2AD18E1F00343317 /* Tela06ViewController.storyboard */,
+			);
+			path = Tela06;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,10 +239,14 @@
 			files = (
 				DF7D79712AC2F63900FD5923 /* Ex2ViewCell.xib in Resources */,
 				DF7D79592AC2E90C00FD5923 /* LaunchScreen.storyboard in Resources */,
+				DFA16E542AD18D7700343317 /* Tela03ViewController.storyboard in Resources */,
 				DF7D79642AC2EAFD00FD5923 /* TableViewCell.xib in Resources */,
 				DF7D796D2AC2F45800FD5923 /* Tela2ViewController.storyboard in Resources */,
+				DFA16E602AD18E1F00343317 /* Tela06ViewController.storyboard in Resources */,
 				DF7D79562AC2E90C00FD5923 /* Assets.xcassets in Resources */,
+				DFA16E5C2AD18DCA00343317 /* Tela05ViewController.storyboard in Resources */,
 				DF7D79542AC2E90B00FD5923 /* Main.storyboard in Resources */,
+				DFA16E582AD18DA500343317 /* Tela04ViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,12 +258,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF7D79512AC2E90B00FD5923 /* ViewController.swift in Sources */,
+				DFA16E5A2AD18DBF00343317 /* Tela05ViewController.swift in Sources */,
 				DF7D79632AC2EAFD00FD5923 /* TableViewCell.swift in Sources */,
 				DF7D79732AC2F87300FD5923 /* Pessoa.swift in Sources */,
 				DF7D794D2AC2E90B00FD5923 /* AppDelegate.swift in Sources */,
 				DF7D79702AC2F63900FD5923 /* Ex2ViewCell.swift in Sources */,
 				DF7D794F2AC2E90B00FD5923 /* SceneDelegate.swift in Sources */,
+				DFA16E522AD18D4000343317 /* Tela03ViewController.swift in Sources */,
+				DFA16E5E2AD18E1300343317 /* Tela06ViewController.swift in Sources */,
 				DF7D79672AC2EB9D00FD5923 /* Frutas.swift in Sources */,
+				DFA16E562AD18D9700343317 /* Tela04ViewController.swift in Sources */,
 				DF7D796B2AC2F44500FD5923 /* Tela2ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
