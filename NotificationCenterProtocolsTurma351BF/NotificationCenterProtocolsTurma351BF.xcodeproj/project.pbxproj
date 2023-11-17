@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFF0563B2AD607F5001A5399 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF0563A2AD607F5001A5399 /* AppDelegate.swift */; };
+		DFF0563D2AD607F5001A5399 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF0563C2AD607F5001A5399 /* SceneDelegate.swift */; };
+		DFF0563F2AD607F5001A5399 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF0563E2AD607F5001A5399 /* ViewController.swift */; };
+		DFF056422AD607F5001A5399 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFF056402AD607F5001A5399 /* Main.storyboard */; };
+		DFF056442AD607F6001A5399 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFF056432AD607F6001A5399 /* Assets.xcassets */; };
+		DFF056472AD607F6001A5399 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFF056452AD607F6001A5399 /* LaunchScreen.storyboard */; };
+		DFF056502AD60879001A5399 /* Tela02ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF0564F2AD60879001A5399 /* Tela02ViewController.swift */; };
+		DFF056522AD60886001A5399 /* Tela02ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFF056512AD60886001A5399 /* Tela02ViewController.storyboard */; };
+		DFF056552AD630B8001A5399 /* NSNotification.Name+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF056542AD630B8001A5399 /* NSNotification.Name+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DFF056372AD607F5001A5399 /* NotificationCenterProtocolsTurma351BF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotificationCenterProtocolsTurma351BF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFF0563A2AD607F5001A5399 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DFF0563C2AD607F5001A5399 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DFF0563E2AD607F5001A5399 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DFF056412AD607F5001A5399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFF056432AD607F6001A5399 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFF056462AD607F6001A5399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFF056482AD607F6001A5399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFF0564F2AD60879001A5399 /* Tela02ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tela02ViewController.swift; sourceTree = "<group>"; };
+		DFF056512AD60886001A5399 /* Tela02ViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tela02ViewController.storyboard; sourceTree = "<group>"; };
+		DFF056542AD630B8001A5399 /* NSNotification.Name+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSNotification.Name+Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFF056342AD607F5001A5399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFF0562E2AD607F5001A5399 = {
+			isa = PBXGroup;
+			children = (
+				DFF056392AD607F5001A5399 /* NotificationCenterProtocolsTurma351BF */,
+				DFF056382AD607F5001A5399 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFF056382AD607F5001A5399 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFF056372AD607F5001A5399 /* NotificationCenterProtocolsTurma351BF.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFF056392AD607F5001A5399 /* NotificationCenterProtocolsTurma351BF */ = {
+			isa = PBXGroup;
+			children = (
+				DFF056532AD6309E001A5399 /* Extensions */,
+				DFF0564E2AD60864001A5399 /* Tela02 */,
+				DFF0563A2AD607F5001A5399 /* AppDelegate.swift */,
+				DFF0563C2AD607F5001A5399 /* SceneDelegate.swift */,
+				DFF0563E2AD607F5001A5399 /* ViewController.swift */,
+				DFF056402AD607F5001A5399 /* Main.storyboard */,
+				DFF056432AD607F6001A5399 /* Assets.xcassets */,
+				DFF056452AD607F6001A5399 /* LaunchScreen.storyboard */,
+				DFF056482AD607F6001A5399 /* Info.plist */,
+			);
+			path = NotificationCenterProtocolsTurma351BF;
+			sourceTree = "<group>";
+		};
+		DFF0564E2AD60864001A5399 /* Tela02 */ = {
+			isa = PBXGroup;
+			children = (
+				DFF0564F2AD60879001A5399 /* Tela02ViewController.swift */,
+				DFF056512AD60886001A5399 /* Tela02ViewController.storyboard */,
+			);
+			path = Tela02;
+			sourceTree = "<group>";
+		};
+		DFF056532AD6309E001A5399 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DFF056542AD630B8001A5399 /* NSNotification.Name+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFF056362AD607F5001A5399 /* NotificationCenterProtocolsTurma351BF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFF0564B2AD607F6001A5399 /* Build configuration list for PBXNativeTarget "NotificationCenterProtocolsTurma351BF" */;
+			buildPhases = (
+				DFF056332AD607F5001A5399 /* Sources */,
+				DFF056342AD607F5001A5399 /* Frameworks */,
+				DFF056352AD607F5001A5399 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotificationCenterProtocolsTurma351BF;
+			productName = NotificationCenterProtocolsTurma351BF;
+			productReference = DFF056372AD607F5001A5399 /* NotificationCenterProtocolsTurma351BF.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFF0562F2AD607F5001A5399 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					DFF056362AD607F5001A5399 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = DFF056322AD607F5001A5399 /* Build configuration list for PBXProject "NotificationCenterProtocolsTurma351BF" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFF0562E2AD607F5001A5399;
+			productRefGroup = DFF056382AD607F5001A5399 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFF056362AD607F5001A5399 /* NotificationCenterProtocolsTurma351BF */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFF056352AD607F5001A5399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF056472AD607F6001A5399 /* LaunchScreen.storyboard in Resources */,
+				DFF056522AD60886001A5399 /* Tela02ViewController.storyboard in Resources */,
+				DFF056442AD607F6001A5399 /* Assets.xcassets in Resources */,
+				DFF056422AD607F5001A5399 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFF056332AD607F5001A5399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF056502AD60879001A5399 /* Tela02ViewController.swift in Sources */,
+				DFF0563F2AD607F5001A5399 /* ViewController.swift in Sources */,
+				DFF0563B2AD607F5001A5399 /* AppDelegate.swift in Sources */,
+				DFF056552AD630B8001A5399 /* NSNotification.Name+Extension.swift in Sources */,
+				DFF0563D2AD607F5001A5399 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DFF056402AD607F5001A5399 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFF056412AD607F5001A5399 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFF056452AD607F6001A5399 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFF056462AD607F6001A5399 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFF056492AD607F6001A5399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DFF0564A2AD607F6001A5399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFF0564C2AD607F6001A5399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NotificationCenterProtocolsTurma351BF/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelbressiani.NotificationCenterProtocolsTurma351BF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFF0564D2AD607F6001A5399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NotificationCenterProtocolsTurma351BF/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelbressiani.NotificationCenterProtocolsTurma351BF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFF056322AD607F5001A5399 /* Build configuration list for PBXProject "NotificationCenterProtocolsTurma351BF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFF056492AD607F6001A5399 /* Debug */,
+				DFF0564A2AD607F6001A5399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFF0564B2AD607F6001A5399 /* Build configuration list for PBXNativeTarget "NotificationCenterProtocolsTurma351BF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFF0564C2AD607F6001A5399 /* Debug */,
+				DFF0564D2AD607F6001A5399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFF0562F2AD607F5001A5399 /* Project object */;
+}
